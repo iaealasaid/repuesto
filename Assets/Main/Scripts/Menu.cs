@@ -49,18 +49,18 @@ public class Menu : MonoBehaviour
     }
     public void C1()
     {
-        SceneManager.LoadScene("Chapter1");
+        SceneLoader.CargarEscena("Chapter1");
     }
     public void C2()
     {
-        SceneManager.LoadScene("Chapter2");
+        SceneLoader.CargarEscena("Chapter2");
     }
     public void C3()
     {
-        SceneManager.LoadScene("Chapter3");
+        SceneLoader.CargarEscena("Chapter3");
     }
     public void C4()
     {
-        SceneManager.LoadScene("Chapter4");
+        SceneLoader.CargarEscena("Chapter4");
     }
 }
